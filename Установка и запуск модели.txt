@@ -1,0 +1,7 @@
+Установка и запуск
+pip install ollama
+python analyze.py
+
+Проверка, что модель доступна:
+ollama list                      # должна быть gemma4:31b-cloud
+ollama run gemma4:31b-cloud "тест"   # быстрый smoke-тест
