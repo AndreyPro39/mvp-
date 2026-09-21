@@ -1,5 +1,6 @@
 Установка и запуск
 pip install ollama
+либо так- winget install Ollama.Ollama
 python analyze.py
 
 Проверка, что модель доступна:
